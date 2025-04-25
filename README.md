@@ -2,6 +2,8 @@
 This repository hosts files related to a simple modding tutorial for Titanfall 2. <BR> <BR>
 
 The tutorial can be found [here](link here). <BR>
+# Download
+To download the files, download the repository as ZIP (green `<> Code` button for those unaware).
 # These files depend on the following repositories: <BR>
 - [Titanfall 2 Northstar Client](https://github.com/R2Northstar/Northstar) & [VanillaPlus](https://github.com/Zayveeo5e/NP.VanillaPlus) <BR> <BR>
 # Other useful links: <BR>
@@ -13,7 +15,7 @@ The tutorial can be found [here](link here). <BR>
 - Ensure that you do not have any of the default R2Northstar/mods installed; these must be removed.
 - Go into your Launch Arguments and insert `-vanilla -northstar`.
 - Launch the game. The main menu screen should have a slightly different logo.
-- Close the game and install the mods and packages you'd like to install. For this repo, the two mods given go into the mods folder. For Thunderstore mods, put the downloaded files into packages.
+- Close the game and install the mods and packages you'd like to install. For this repo, the two mods given go into the mods folder. For [Thunderstore](https://thunderstore.io/c/northstar/) mods, put the downloaded files into packages.
 # Modding text and crosshairs
 ## Text
 - Go into the mod files.
@@ -23,7 +25,7 @@ The tutorial can be found [here](link here). <BR>
 ## Crosshairs
 - Go into the mod files.
 - Navigate to the weapon scripts folder.
-- Find the weapon you are looking for. *If it does not exist, like the Laser Core (mp_titancore_lasercannon.txt), then feel free to create it yourself. Just paste the crosshair text in the file to make it work, but ensure it's encapsulated in a `WeaponData{ ... }`*
+- Find the weapon you are looking for. *If it does not exist, like the Laser Core (`mp_titancore_lasercannon.txt`), then feel free to create it yourself. Just paste the crosshair text in the file to make it work, but ensure it's encapsulated in a `WeaponData{ ... }`. An example is given down below of a complete file for just a Crosshair.*
 - Scroll to the bottom to find the crosshair data; see the following Alternator example;
 ```txt
 active_crosshair_count				"1"
@@ -97,4 +99,4 @@ WeaponData
 }
 ```
 From this example as well as the [NoSkill Crosshair Modding page](https://noskill.gitbook.io/titanfall2/modding/weapon-config-info/crosshair-modding) you should be able to figure out how to add/change crosshairs. <BR>
-Find information on the Args on the NoSkill wiki as well.
+Find information on the Args on the [NoSkill wiki](https://noskill.gitbook.io/titanfall2/modding/weapon-config-info) as well.
