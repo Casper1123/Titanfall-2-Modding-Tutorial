@@ -1,0 +1,6 @@
+{
+	"Name": "Custom HUD-Text Template",
+	"Description": "In the mod files, edit resource/r1_english, or another language file depending on your game's language." 
+	"Version": "1.0",
+	"LoadPriority": "5"
+}

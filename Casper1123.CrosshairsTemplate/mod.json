@@ -1,0 +1,6 @@
+{
+	"Name": "Custom Crosshair Template",
+	"Description": "In the mod files, edit the files in keyvalues/scripts/weapons. Find documentation \"https://noskill.gitbook.io/titanfall2/modding/weapon-config-info/crosshair-modding\" and the YouTube video.",
+	"Version": "1.0",
+	"LoadPriority": "5"
+}
