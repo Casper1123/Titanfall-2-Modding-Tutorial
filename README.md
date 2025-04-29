@@ -1,7 +1,7 @@
 # Titanfall 2 Modding Tutorial
 This repository hosts files related to a simple modding tutorial for Titanfall 2. <BR> <BR>
 
-The tutorial can be found [here](link here). <BR>
+The tutorial can be found [here](https://youtu.be/S3Gdpxsf6sQ). <BR>
 # Download
 To download the files, download the repository as ZIP (green `<> Code` button for those unaware).
 # These files depend on the following repositories: <BR>
